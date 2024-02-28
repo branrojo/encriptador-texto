@@ -5,32 +5,40 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width"> 
-        <title>Encriptador</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
     </head>
 
     <body>
-
         <header>
-            <h1><img src="alura.png" class="alura"></h1>
+            <img src="alura.png" alt="logo de alura" class="alura">
         </header>
 
         <main>
-            <section class="caja-textoEntrada">
-            <input type="text" class="texto-entrada" required placeholder="Ingresa el texto aquí">
+            <section>
+                <textarea class="texto-entrada" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <h6 class="mensaje-informativo">Solo letras minúsculas y sin acentos</h6>
+                </div>
+
+                <div class="botones-principales">
+                   <button class="encriptar">Encriptar</button>
+                   <button class="desencriptar">Desencriptar</button>
+                </div>
             </section>
 
-            <section class="caja-textoSalida">
-                <input type="text" required placeholder="Ingresa el texto que deseas encriptar o desencriptar" class="texto-salida">
-                <input type="button" value="copiar" class="copiar">
+            <section>
+                <textarea class="texto-salida" cols="20" rows="10"></textarea>
+                <div>
+                    <button class="copiar"></button>
+                </div>
             </section>
 
-            <section class="botones-principales">
-                <input type="button" value="Encriptar" class="encriptar">
-                <input type="button" value="Desencriptar" class="desencriptar">
-            </section>
+            
+                
+            
             
         </main>
 
