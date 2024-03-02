@@ -53,7 +53,8 @@ main{
 
 .mensaje-informativo{
     color: #495057;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .botones-principales{
@@ -99,7 +100,7 @@ main{
 
 footer p{
     text-align: center;
-    background-image: url(/home/brandon/encriptador/fondo-abstracto-textura_1258-30506.png);
+    background: #0a3871;
     padding: 40px;
     color: #ffffff;
     margin-top: 50px;
