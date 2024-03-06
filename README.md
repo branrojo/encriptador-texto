@@ -7,7 +7,7 @@ La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 
-Solo se reciben letras minusculas y tiene la funcionalidad te encriptar y desencriptar el texto
+Solo se reciben letras minusculas y tiene la funcionalidad de encriptar y desencriptar el texto
 
 Tiene dos botones principales para encriptar y desenciptar el texto y un boton adicional para copiar (ctrl c) y evitar estar copiando manualmente el texto de salida
 
