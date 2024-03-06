@@ -34,7 +34,7 @@ main{
 
 .texto-salida{
     background: #ffffff;
-    background-image: url(/home/brandon/encriptador/muneco.png);
+    background-image: url(/muneco.png);
     background-size: 210px 190px;
     background-position: center;
     background-repeat: no-repeat;
