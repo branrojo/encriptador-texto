@@ -89,10 +89,12 @@ main{
 
 .encriptar:hover{
     transform: scale(1.1);
+    transition: 0.6s;
 }
 
 .desencriptar:hover{
     transform: scale(1.1);
+    transition: 0.6s;
 }
 
 .copiar{
@@ -110,6 +112,7 @@ main{
 
 .copiar:hover{
     transform: scale(1.1);
+    transition: 0.6s;
 }
 
 footer p{
