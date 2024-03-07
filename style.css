@@ -34,8 +34,8 @@ main{
 
 .texto-salida{
     background: #ffffff;
-    background-image: url(/muneco.png);
-    background-size: 210px 190px;
+    background-image: url('Imagen-pegada.png');
+    background-size: 250px 220px;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
